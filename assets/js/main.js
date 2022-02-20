@@ -1,9 +1,3 @@
-/*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	var	$window = $(window),
@@ -181,5 +175,25 @@
 						$menu._hide();
 
 			});
+
+			// start of dropdown
+				
+			// end of dropdown
+
+
+			// start of login
+			const signUpButton = document.getElementById('signUp');
+			const signInButton = document.getElementById('signIn');
+			const container = document.getElementById('container');
+
+			signUpButton.addEventListener('click', () => {
+				container.classList.add("right-panel-active");
+			});
+
+			signInButton.addEventListener('click', () => {
+				container.classList.remove("right-panel-active");
+			});
+
+			// end of login
 
 })(jQuery);

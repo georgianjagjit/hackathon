@@ -16,11 +16,8 @@
 					<header id="header">
 						<div class="inner">
 
-							<!-- Logo -->
-								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
-								</a>
 
+							
 							<!-- Nav -->
 								<nav>
 									<ul>
@@ -36,60 +33,80 @@
 						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Ipsum veroeros</a></li>
+							<!-- <li><a href="generic.html">Ipsum veroeros</a></li>
 							<li><a href="generic.html">Tempus etiam</a></li>
 							<li><a href="generic.html">Consequat dolor</a></li>
-							<li><a href="elements.html">Elements</a></li>
+							<li><a href="elements.html">Elements</a></li> -->
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Generic Page</h1>
-							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
+							<!-- start of sign in -->
+							<div class="container" id="container">
+								<div class="form-container sign-up-container">
+									<form action="#">
+										<h1>Create Account</h1>
+										
+										<input type="text" placeholder="Name" />
+										<input type="tel" placeholder="Phone Number" />
+										<input type="email" placeholder="Email" />
+										<input type="password" placeholder="Password" />
+										<button>Sign Up</button>
+										
+										<div>
+											Categories:
+											<SELECT NAME="list" ID="list" multiple>
+											  <OPTION>Cigratee</OPTION>
+											  <OPTION>Gaming</OPTION>
+											  <OPTION>Alcohol</OPTION>
+											  <OPTION>Gambling</OPTION>
+											  
+											
+											</SELECT>
+											<input type="text" id="txtbox">
+											<INPUT TYPE="button" NAME="button" VALUE="Add New" onClick="runList()" />
+										  </div>
+										
+									</form>
+									
+								</div>
+								
+								<div class="form-container sign-in-container">
+									<form action="#">
+										<h1>Sign in</h1>
+									
+										<input type="email" placeholder="Email" />
+										<input type="password" placeholder="Password" />
+										<a href="#">Forgot your password?</a>
+										<button>Sign In</button>
+									</form>
+								</div>
+								<div class="overlay-container">
+									<div class="overlay">
+										<div class="overlay-panel overlay-left">
+											<h1>Welcome Back!</h1>
+											<p>To keep connected please login with your personal info</p>
+											<button class="ghost" id="signIn">Sign In</button>
+											
+										</div>
+										<div class="overlay-panel overlay-right">
+											<h1>Hello Mediator!</h1>
+											<p>Enter your details please and start your journey with us. </p>
+											<button class="ghost" id="signUp">Sign Up</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- end of sign in -->
+
+							
 							</div>
 					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<section>
-								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
-							</section>
-							<section>
-								<h2>Follow</h2>
-								<ul class="icons">
-									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
-							</section>
-							
-						</div>
-					</footer>
+				
 
 			</div>
 
